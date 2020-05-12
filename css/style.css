@@ -1,14 +1,79 @@
+@media (min-width:1200px) {
+
+    .container-verybig{
+            max-width:1560px;
+    }
+}
 body {
   background-image:url;
 }
 
 #bandeausaison4{
-  background-image:url(../image/combat.jpg);
+  background-image:url(../img/combat.jpg);
   background-position: center;
+  color:white;
   
+  
+}
+.col-6{
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	
+  margin-left:50px;
+}
+
+
+.col-12{
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	
+  margin-top:20px;
+  
+  margin-left:50px;
 }
 
 #bandeausaison4 h1{
+  color: white;
+  text-align: left;
+  font-weight:700;
+  font-size:52px;
+  margin-bottom:20px;
+  font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  padding-top:300px; 
   
+  margin-left:50 px;
   
+}
+
+a.annonce {
+	padding: 10px 30px;
+	border-color: red;
+	color: orange;
+	border: 1px solid red;
+	background-color : rgba(255, 0, 0, 0.50);
+	
+}
+
+a.annonce:hover {
+	background-color:rgba(255, 0, 0, 0.75);
+}
+a.ensavoir {
+	padding: 10px 30px;
+	border-color: red;
+	color: orange;	
+	border: 1px solid red;
+	margin-left:50px;
+	background-color: rgba(255, 0, 0, 0.50);
+	
+}
+
+a.ensavoir:hover {
+	background-color:rgba(255, 0, 0, 0.75);
+}
+
+#bandeausaison4 p a{
+	color: #ebdec2;
+	text-transform:none;
+	text-decoration: underline;
+	font-size:20px;
+	line-height: 85px;
 }
