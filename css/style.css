@@ -58,16 +58,16 @@ a.annonce:hover {
 }
 a.ensavoir {
 	padding: 10px 30px;
-	border-color: red;
+	border-color: orange;
 	color: orange;	
-	border: 1px solid red;
+	border: 1px solid orange;
 	margin-left:50px;
-	background-color: rgba(255, 0, 0, 0.50);
 	
 }
 
 a.ensavoir:hover {
-	background-color:rgba(255, 0, 0, 0.75);
+	background-color:rgba(255, 163, 0, 0.90);
+	color: yellow;
 }
 
 #bandeausaison4 p a{
